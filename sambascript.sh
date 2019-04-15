@@ -1,9 +1,9 @@
 #!/bin/bash
-sudo echo samba >/etc/hostname
-sudo echo "127.0.0.1    localhost" >/etc/hosts
-sudo echo "127.0.1.1    samba" >>/etc/hosts
-sudo apt-get update&&sudo apt-get install samba -y
-sudo mkdir /srv/kozos
-sudo chmod 777 /srv/kozos
-sudo mkdir /srv/readonly
-sudo chmod 755 /srv/readonly
+echo samba >/etc/hostname
+echo "127.0.0.1    localhost" >/etc/hosts
+echo "127.0.1.1    samba" >>/etc/hosts
+apt-get update&&apt-get install samba -y
+mkdir /srv/kozos
+chmod 777 /srv/kozos
+mkdir /srv/readonly
+chmod 755 /srv/readonly
