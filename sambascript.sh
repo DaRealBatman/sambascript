@@ -7,3 +7,6 @@ mkdir /srv/kozos
 chmod 777 /srv/kozos
 mkdir /srv/readonly
 chmod 755 /srv/readonly
+
+
+mv-vel átnevezzük a régit, cp-vel odamásoljuk a sajátot
