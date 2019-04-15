@@ -1,5 +1,6 @@
 #!/bin/bash
 # lefuttatása: sudo ./sambascript.sh
+# FURÁN MŰKÖDIK, NE HASZNÁLD!
 echo samba >/etc/hostname
 echo "127.0.0.1    localhost" >/etc/hosts
 echo "127.0.1.1    samba" >>/etc/hosts
